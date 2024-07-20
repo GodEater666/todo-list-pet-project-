@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap");
+body {
+  background: rgb(68, 67, 88);
+  background: linear-gradient(
+    90deg,
+    rgba(68, 67, 88, 1) 3%,
+    rgba(63, 60, 85, 1) 26%,
+    rgba(32, 16, 66, 1) 80%
+  );
+}
+button {
+  border-radius: 6px;
+  margin-left: 930px;
+  margin-top: -24px;
+  display: flex;
+}
+.mulish-uniquifier {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-left: 598px;
+  transform: translate(0, -150px);
+}
+.text {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 45%;
+}
+.list {
+  color: gray;
+  width: 300px;
+  height: 200px;
+}
+.todo__text {
+  color: rgb(0, 0, 0);
+  width: 300px;
+  height: 20px;
+  margin-left: 200%;
+  border-radius: 8px;
+  font-family: "Mulish", sans-serif;
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    border-bottom: 0.2em solid #ffffff;
+    background: rgba(255, 255, 255, 0.274);
+    border-radius: 0.2em 0.2em 0 0;
+    padding: 0.4em;
+    color: #ffffff;
+}
+
+.add {
+  margin-left: 930px;
+  display: flex;
+  margin-top: -29px;
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  position: relative;
+  text-align: left;
+  transition: 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: 50px;
+  word-break: normal;
+  word-spacing: normal;
+}
+.indate{
+  background-color:#ffffff00;
+  font-family: "Mulish", sans-serif;
+  padding: 0.8em 0.9em;
+  transform: translate(0, -3px);
+  color:white ;
+
+}
+.date{
+  border: 0.2em solid #ffffff;
+    padding: 14px;
+    border-radius: 2em;
+    background: linear-gradient(
+      90deg,
+      rgba(68, 67, 88, 1) 3%,
+      rgba(63, 60, 85, 1) 26%,
+    );
+    display: grid;
+    place-content: center;
+    display: flex;
+    width: 163px;
+    height: 15px;
+    transform: translate(0, -205px);
+    margin-left: 290px;
+}
+
+.list1 {
+  margin-left: 39%;
+  margin-top: -170px;
+  font-family: "Mulish", sans-serif;
+}
+p {
+  color: white;
+  margin-left: 40%;
+  font-family: "Mulish", sans-serif;
+  transform: translate(-10px, -220px);
+}
+.remove {
+  margin-left: 990px;
+  display: flex;
+  display: flex;
+  margin-top: -26px;
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  position: relative;
+  text-align: left;
+  transition: 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: 80px;
+
+  word-break: normal;
+  word-spacing: normal;
+}
+.sort {
+  margin-left: 520px;
+  display: flex;
+  display: flex;
+  margin-top: -26px;
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  position: relative;
+  text-align: left;
+  transition: 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: 60px;
+
+  word-break: normal;
+  word-spacing: normal;
+}
